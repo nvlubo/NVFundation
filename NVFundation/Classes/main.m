@@ -1,10 +1,9 @@
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-#import "AppDelegate.h"
-
-int main(int argc, char *argv[])
-{
-    @autoreleasepool {        
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        // insert code here...
+        NSLog(@"Hello, World!");
     }
+    return 0;
 }
